@@ -252,28 +252,48 @@
         }
         
         .topleft {
-            top: 30%;
-            left: 30%;      
+            height:10%;
+            padding-top: 5%;
+            width: 100%;
+            text-align: center;  
+            top: 40%;
+            left: 0%;      
         }
 
         .topright {
-            top: 70%;
-            left: 30%;      
+            top: 95%;
+            height:10%;
+            padding-top: 5%;
+            width: 100%;
+            text-align: center;  
+            left: 0%;      
         }
     
         .midleft {
-            top: 110%;
-            left: 30%;      
+            top: 150%;
+            height:10%;
+            padding-top: 5%;
+            width: 100%;
+            text-align: center;  
+            left: 0%;      
         }
     
         .midright {
-            top: 150%;
-            left: 15%;      
+            top: 205%;
+            height:10%;
+            padding-top: 5%;
+            width: 100%;
+            text-align: center;  
+            left: 0%;       
         }
         
         .botleft {
-            top: 190%;
-            left: 15%;      
+            top: 260%;
+            height:10%;
+            padding-top: 5%;
+            width: 100%;
+            text-align: center;  
+            left: 0%;   
         }
     
     }
@@ -315,28 +335,48 @@
     }
     
     .topleft {
-        top: 35%;
-        left: 20%;      
+        top: 45%;
+        left: 5%;   
+        height:10%;
+        padding-top: 5%;
+        width: 35%;
+        text-align: center;      
     }
 
     .topright {
-        top: 35%;
-        left: 65%;      
+        top: 45%;
+        text-align: center;      
+        height:10%;
+        padding-top: 5%;
+        width: 35%;
+        left: 50%;      
     }
 
     .midleft {
-        top: 110%;
-        left: 18%;      
+        top: 100%;
+        left: 5%;   
+        height:10%;
+        padding-top: 5%;
+        width: 35%;
+        text-align: center;         
     }
 
     .midright {
-        top: 110%;
-        left: 55%;      
+        top: 100%;
+        left: 50%;   
+        height:10%;
+        padding-top: 5%;
+        width: 35%;
+        text-align: center;     
     }
     
     .botleft {
-        top: 180%;
-        left: 15%;      
+        top: 160%;
+        left: 5%;
+        height: 10%;
+        padding-top: 5%;
+        width: 35%;
+        text-align: center;      
     }
 
 }
