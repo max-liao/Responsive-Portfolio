@@ -27,20 +27,20 @@
     .namebox{
         position: absolute;
         padding-bottom:1%;
+        background-color: teal;
         height: 10%;
         width: 25%;
         left: 5%;
     }
 
     .navbox{
-        /* float: left; */
         position: absolute;
         height: 10%;
         width: 30%;
         right: 0%;
         top: 5%;
     }
-    
+
     .grayhr{
         position: relative;
         height: 2px;
@@ -224,7 +224,7 @@
     */
     @media screen and (max-width: 980px) {
         body {
-          background-color: red;
+          /* background-color: red; */
         }
 
         .aboutbox{
@@ -283,7 +283,7 @@
     */
     @media screen and (min-device-width: 640px) and (max-device-width: 768px) {
       body {
-        background-color: blue;
+        /* background-color: blue; */
       }
       
       .aboutbox{
@@ -346,25 +346,39 @@
       is either 640px or less.
     */
     @media screen and (max-device-width: 640px) {
-      body {
-        background-color: blueviolet;
-      }
+    body {
+        /* background-color: blueviolet; */
+    }
 
-      head{
+    head{
         position:static;
-      }
+    }
 
-      .aboutbox{
+    .aboutbox{
         width: 80%;
         height: 50%;
         right: 10%;
     }
     
     .namebox{
-        left:10%;
-        width:25%;
+        left:0%;
+        width:100%;
     }
 
+    .navbox{
+        font-size: 30px;
+        left:5%;
+        top:7%;
+        width:100%;
+    }
+
+
+    .navtext{
+        font-size:20px;
+        margin-right:10%;
+        text-align: center;
+    }
+    
     .connectwithme{
         width: 80%;
         top: 70%;
